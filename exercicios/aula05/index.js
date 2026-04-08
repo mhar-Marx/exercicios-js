@@ -31,7 +31,6 @@ export function verificarAprovacao(nota) {
     return "reprovado";
   }
 }
-
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
    let soma = 0;
@@ -44,7 +43,6 @@ export function somarPares(numeros) {
 
   return soma;
 }
-
 // Exercício 5 — contarLetra
 export function contarLetra(texto, letra) {
    let contador = 0;
