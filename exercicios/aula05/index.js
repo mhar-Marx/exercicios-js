@@ -49,9 +49,6 @@ export function somarPares(numeros) {
 export function contarLetra(texto, letra) {
   let contador = 0;
 
-  texto = texto.toLowerCase();
-  letra = letra.toLowerCase();
-
   for (let i = 0; i < texto.length; i++) {
     if (texto[i] === letra) {
       contador++;
