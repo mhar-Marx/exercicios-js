@@ -47,14 +47,14 @@ export function somarPares(numeros) {
 
 // Exercício 5 — contarLetra
 export function contarLetra(texto, letra) {
-   let soma = 0;
+  let contador = 0;
 
-  for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i] % 2 === 0) {
-      soma += numeros[i];
+  for (let i = 0; i < texto.length; i++) {
+    if (texto[i] === letra) {
+      contador++;
     }
   }
 
-  return soma;
+  return contador;
 }
 
