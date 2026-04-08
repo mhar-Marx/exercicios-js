@@ -31,28 +31,30 @@ export function verificarAprovacao(nota) {
     return "reprovado";
   }
 }
+
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
    let soma = 0;
 
-  for (let numero of numeros) {
-    if (numero % 2 === 0) {
-      soma += numero;
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+      soma += numeros[i];
     }
   }
 
   return soma;
 }
+
 // Exercício 5 — contarLetra
 export function contarLetra(texto, letra) {
-   let contador = 0;
+   let soma = 0;
 
-  for (let caractere of texto) {
-    if (caractere === letra) {
-      contador++;
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+      soma += numeros[i];
     }
   }
 
-  return contador;
+  return soma;
 }
 
